@@ -1,0 +1,17 @@
+dags:
+  ccp-its-uat:
+    collection:
+      url: 'https://api.postman.com/collections/7668152-2a2ab9c1-06ca-4a17-b88a-cd0d68bb5c2d?access_key=PMAT-01GWXMD7Q1PNQNVXNYNJD7C7N7'
+#    interval: '0 10,13,16,19 * * *'
+    email:
+      to: 'nivai220@yopmail.com'
+      subject: 'CCP integration Report on Date'
+      html_content: '<h3>Please find the attached CCP integration test suite HTML report. </h3>'
+  ccp-its-dev:
+    collection:
+      url: 'https://api.postman.com/collections/7668152-2a2ab9c1-06ca-4a17-b88a-cd0d68bb5c2d?access_key=PMAT-01GWXMD7Q1PNQNVXNYNJD7C7N7'
+#    interval: '0 10,13,16,19 * * *'
+    email:
+      to: 'nivai260@yopmail.com'
+      subject: 'CCP integration Report on Date'
+      html_content: '<h3>Please find the attached CCP integration test suite HTML report. </h3>'
